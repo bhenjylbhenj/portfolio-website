@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: #434343;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 3;
+}
+
+#nav-logo {
+  width: 200px;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+#landing {
+  height: 90vh;
+}
+
+#landing img {
+  border-radius: 50%;
+  border: 5px solid #00c896;
+  height: auto;
+}
+
+#landing #name {
+  color: #715d6e;
+  font-weight: bolder;
+}
+
+#projects {
+  background-color: #00c896;
+}
+
+.card-row {
+  display: flex;
+}
+
+#projects .card {
+  width: 22rem;
+}
+
+#frontend,
+#backend {
+  background-color: #f2ecff;
+}
+
+.tool-body > img {
+  width: 50px;
+}
+
+#contact {
+  color: #518071;
+}
+
+#contact h4 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+#contact input,
+#contact textarea {
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #518071;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+#contact button {
+  padding: 5px 30px;
+  border: none;
+  margin-top: 50px;
+  background-color: #518071;
+  color: white !important;
+  border-radius: 30px;
+  width: 100%;
+}
+
+#contact #contact-form {
+  border: 2px solid #518071;
+  padding: 20px;
+  align-items: flex-end;
+  display: none;
+}
+
+#contact-div .contact-section {
+  margin: 50px 0;
+}
+
+#contact-div .head {
+  font-size: 1.5rem;
+  line-height: 0.5rem;
+}
+
+#contact-div p {
+  line-height: 0.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #737373;
+}
+
+footer p {
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
